@@ -22,7 +22,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
-    display:flex
+    display: flex;
 
 }
 .container{
@@ -155,7 +155,7 @@ cursor:pointer;
 }
 
 .navbar {
-    background-color: #5bc2eb;
+    background-color: #e47678;
     margin-right: 500px;
     justify-content: center;
     align-items: center;
@@ -177,7 +177,4 @@ cursor:pointer;
     width: 300px;
     height: 300px;
     border: solid 2px red;
-<div class="card"><img src="assets/user4.jpg" width="200" height="200" alt="user"><div class="card__content"><span><i class="ri-double-quotes-l"></i></span><div class="card__detsils"><p>Lorem ipsum,
-dolor sit amet consectetur adipisicing elit. Totam nisi fuga non exercitationem soluta laudantium vitae ratione illum ea ex quibusdam quam quaerat,
-magni tempore quos porro voluptatibus,
-voluptatem a.</p><h4>Meher kaur</h4></div></div></div></div></div>*/
+*/
