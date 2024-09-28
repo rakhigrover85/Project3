@@ -12,6 +12,8 @@
     box-sizing:border-box;
 }
 body{
+    background-image: url(assets\background2.jpg);
+        background-color: ;
     font-family: 'Roboto', sans-serif;
 }
 header{
@@ -36,16 +38,20 @@ gap: 10rem;
     margin-bottom: 2 rem;
     font-size: 2.5rem;
         font-weight: 500;
-    color:#ff226f
+        background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
 
 
 }
 
-.container__left p{
-    color: #29b0bb;
-        margin-bottom: 2.5rem;
+.container__left p {
+    margin-bottom: 2.5rem;
         font-size: 2.5rem;
         font-weight: 500;
+        background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
 }
 
 .container__left button{
@@ -61,6 +67,7 @@ cursor:pointer;
 }
 
 .container__right{
+    background-image: url(assets\background2.jpg);
     display:grid;
     gap:2rem;
 }
