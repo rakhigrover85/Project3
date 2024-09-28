@@ -29,22 +29,23 @@ margin-top: 20px;
 padding:1rem;
 display: grid;
 grid-template-columns: repeat(2,1fr);
-gap:3rem;
+gap: 10rem;
 }
 
-.container__left h1{
-    width: 100%;
+.container__left h1 {
     margin-bottom: 2 rem;
-    font-size: 1rem;
-    font-weight:200;
+    font-size: 2.5rem;
+        font-weight: 500;
     color:#ff226f
 
 
 }
 
 .container__left p{
-    color: #333333;
-    margin-bottom: 1rem;
+    color: #29b0bb;
+        margin-bottom: 2.5rem;
+        font-size: 2.5rem;
+        font-weight: 500;
 }
 
 .container__left button{
@@ -96,6 +97,27 @@ cursor:pointer;
     color:var(--primary-color);
     font-size: 1rem;
     font-weight: 500;
+}
+@media (width < 1200px) {
+    .container {
+        gap: 3rem;
+    }
+}
+
+@media (width < 900px) {
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .container__right {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (width < 750px) {
+    .container__right {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 /*.background {
     background-image: url("assets/background.jpg");
